@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head> 
-<body>
-    <form id="abc">
-            <div id="my"><br><br>
-                <h2>Create Your Account</h2>
-                <br>
-                <p>This is step1</p>
-                <br>
-                <input type="email" id="a1" name="a1" placeholder="Email" required>
-                <br>
-                <br>
-                <input type="password" id="a2" name="a2" placeholder="Password">
-                <br>
-                <br>
-                <input type="password" id="a3" name="a3" placeholder="Confirm Password">   
-                <br>
-                <br>
-                <br>
-                <input type="submit" value="Next" id="a4">
-            </div>
-    </form>
-   </div> 
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="login-white-bg">
+        <div class="text-login">
+            <h3 class="login-text">Log in</h3>
+            <p class="sub-text">to start learning</p>
+        </div>
+
+        <div class="input-box">
+            <label for="mail-box">Enter your mail</label>
+            <input type="mail" placeholder="Email" id="mail-box" />
+        </div>
+
+        <div class="input-box">
+            <label for="password-box">Enter your password</label>
+            <input type="password" placeholder="Password" id="password-box" />
+      </div>
+
+      <div class="frg-pass">
+        <a href="#">Forgot pssword?</a>
+      </div>
+
+      <div class="btn">
+        <button>Log in<i class="ri-arrow-right-line"></i></button>
+      </div>
+
+      <div class="link">
+        <p>Don't have an account?<a href="#">Sign up now!</a></p>
+      </div>
+      
+    </div>
+  </body>
 </html>
